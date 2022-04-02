@@ -3,8 +3,6 @@ package com.example.mockkdelayissue
 import io.mockk.coVerify
 import io.mockk.mockk
 import kotlinx.coroutines.test.TestCoroutineDispatcher
-import org.junit.Assert.*
-
 import org.junit.Test
 
 class ViewModelTestTest {

@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 
 interface InterfaceTest {
 
-    fun method()
+    suspend fun method()
 }
 
 class ViewModelTest(
